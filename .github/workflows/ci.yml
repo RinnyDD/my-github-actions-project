@@ -18,11 +18,9 @@ jobs:
       with:
         node-version: '16'
 
-    - name: Install dependencies
-      run: |
-        npm install
+    - name: Install dev dependencies manually
+      run: npm install mocha chai --save-dev
 
     - name: Run tests with npx
-      run: |
-        npx mocha
+      run: npx mocha
 

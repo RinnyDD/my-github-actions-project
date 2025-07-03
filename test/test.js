@@ -1,4 +1,3 @@
-// test/test.js
 const assert = require('chai').assert;
 
 describe('Simple test', function () {
@@ -6,4 +5,3 @@ describe('Simple test', function () {
     assert.equal('Hello, GitHub Actions!', 'Hello, GitHub Actions!');
   });
 });
-

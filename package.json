@@ -1,17 +1,18 @@
 {
   "name": "my-github-actions-project",
   "version": "1.0.0",
-  "description": "",
+  "description": "A Node.js app with GitHub Actions",
   "main": "app.js",
   "scripts": {
     "test": "mocha"
   },
-  "keywords": [],
-  "author": "",
+  "author": "rinny-sama",
   "license": "ISC",
   "dependencies": {
-    "chai": "^5.2.0",
-    "express": "^5.1.0",
-    "mocha": "^11.7.1"
+    "express": "^4.18.2"
+  },
+  "devDependencies": {
+    "mocha": "^11.7.1",
+    "chai": "^5.2.0"
   }
 }
